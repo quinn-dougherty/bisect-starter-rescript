@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-bisect_ppx@^2.0.0:
+bisect_ppx@^2.7.0:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/bisect_ppx/-/bisect_ppx-2.7.1.tgz#8fde3e6f767a1a4ca190a266d0bd38800b088f66"
   integrity sha512-e8gRgfhmCptiyGGov+54Acah+rc+svm0yc/26mn+M6CCNDADufVLMgRaG1uw3LAHm/PFPy+zGFAKMwd6lD2O2g==
 
-rescript@10.0.0-rc.1:
-  version "10.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/rescript/-/rescript-10.0.0-rc.1.tgz#c9b551e95eb85f00ec6cede114ba5fb3eac940ac"
-  integrity sha512-NrB+hr1TcK7ZORw/wu6eAd5J4tu6PwbN5rmcx8NUiVYpuaPAXmX/4DpC0gV2j86cU2QGK/DrEIWeZlchWNDKWg==
+rescript@10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/rescript/-/rescript-10.0.1.tgz#5b2da8a8bcfb994bed1eb24820bf10cfb9d8c440"
+  integrity sha512-XwO1GPDtoEU4H03xQE5bp0/qtSVR6YLaJRPxWKrfFgKc+LI36ODOCie7o9UJfgzQdoMYkkZyiTGZ4N9OQEaiUw==

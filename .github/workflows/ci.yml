@@ -1,0 +1,19 @@
+name: Express the failure of bisect_ppx on rescript 10
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  should_fail:
+    name: This should fail
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: yarn
+      - name: Fail at building with rescript due to ppx
+        run: yarn build
+      - name: Yarn test
+        run: yarn test
